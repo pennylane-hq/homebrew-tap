@@ -3,7 +3,7 @@ cask "mota" do
   name "mota"
   desc "A Shelly device firmware updater based on zeroconf (or bonjour) discovery for local networks using their built-in Over-The-Air update interface. It is suited for network setups where IoT devices do not have internet connectivity."
   homepage "https://github.com/ruimarinho/mota"
-  version "3.0.0"
+  version "3.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,13 +13,13 @@ cask "mota" do
 
   on_macos do
     url "https://github.com/ruimarinho/mota/releases/download/v#{version}/mota_#{version}_macOS_all.tar.gz"
-    sha256 "cd75a204df0992e545fb5943dbecdc69836b3e12c50bf17d2e41781672b2a5ce"
+    sha256 "6fd76013d30445f9738c0717aaa1ae23aced38cb83603533e728540527294506"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ruimarinho/mota/releases/download/v#{version}/mota_#{version}_Linux_x86_64.tar.gz"
-      sha256 "9bed2e4878ff7b809322e6217098013762c49e09168a5069f024537516de9a68"
+      sha256 "5e761f16abfe958e3eb0d6feab84d38d65f870522273f2f20e7373a690624a50"
     end
   end
 
