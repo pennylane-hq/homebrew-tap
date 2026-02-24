@@ -13,13 +13,13 @@ cask "mota" do
 
   on_macos do
     url "https://github.com/ruimarinho/mota/releases/download/v#{version}/mota_#{version}_macOS_all.tar.gz"
-    sha256 "041c573ee1ec51878bb8312591875e6d6bf9dea99cc476b7625fe81df0063428"
+    sha256 "cd75a204df0992e545fb5943dbecdc69836b3e12c50bf17d2e41781672b2a5ce"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ruimarinho/mota/releases/download/v#{version}/mota_#{version}_Linux_x86_64.tar.gz"
-      sha256 "e1fd426298324c188655bcd7259c4c9df600c5e7d3c6708ea23ab2b551cc4b66"
+      sha256 "9bed2e4878ff7b809322e6217098013762c49e09168a5069f024537516de9a68"
     end
   end
 
