@@ -8,6 +8,8 @@ class Mota < Formula
   version "2.1.0"
   license "MIT"
 
+  depends_on :macos
+
   on_macos do
     url "https://github.com/ruimarinho/mota/releases/download/v2.1.0/mota_2.1.0_macOS_all.tar.gz"
     sha256 "7860ec4c83554cb8ad8639b9c83615775da4a1b84b2deff964657c1e44840df9"
