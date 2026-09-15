@@ -17,6 +17,8 @@ cask "mota" do
   end
 
   on_linux do
+    depends_on arch: :x86_64
+
     on_intel do
       url "https://github.com/ruimarinho/mota/releases/download/v#{version}/mota_#{version}_Linux_x86_64.tar.gz"
       sha256 "5e761f16abfe958e3eb0d6feab84d38d65f870522273f2f20e7373a690624a50"
