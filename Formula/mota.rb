@@ -17,17 +17,6 @@ class Mota < Formula
     end
   end
 
-  on_linux do
-    on_intel do
-      url "https://github.com/ruimarinho/mota/releases/download/v2.1.0/mota_2.1.0_Linux_x86_64.tar.gz"
-      sha256 "bdd10b12794acaee6c57c555a79ee1c74361555a4cefb782c90960918d830a94"
-
-      def install
-        bin.install "mota"
-      end
-    end
-  end
-
   test do
     system "#{bin}/mota --version"
   end
